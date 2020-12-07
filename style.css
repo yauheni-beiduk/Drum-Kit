@@ -1,0 +1,53 @@
+html {
+    background-size: 100% 100%;
+}
+
+body {
+    background: url('images/fon.jpg');
+}
+
+h1 {
+    display: flex;
+    font-size: 60px;
+    justify-content: center;
+    color: white;
+    font-family: 'Eater', cursive;
+    text-shadow: 0 0 .5rem rgb(255, 8, 202);
+}
+
+.keys {
+    padding-top: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+kbd {
+    font-size: 42px;
+    font-family: 'Eater';
+  }
+
+.key {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    border-radius: 30%;
+    width: 120px;
+    transition: all .07s ease;
+    color: white;
+    background: rgba(0,0,0,0.4);
+    text-shadow: 0 0 .5rem rgb(255, 8, 202);
+    cursor: pointer;
+}
+
+.playing {
+    transform: scale(1.15);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ff00dd;
+}
+
+.sound {
+ font-family: 'Eater';
+}
